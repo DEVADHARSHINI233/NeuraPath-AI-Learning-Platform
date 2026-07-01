@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuraPath — AI Learning &amp; Career Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#0B1120",
+              surface: "#121A2E",
+              surface2: "#182338",
+              border: "#243050",
+              violet: "#6C5CE7",
+              violetSoft: "#8B7CF6",
+              cyan: "#22D3EE",
+              amber: "#F5A623",
+              rose: "#FB7185",
+              muted: "#8A93B2",
+              ink2: "#E7EAF3",
+            },
+            fontFamily: {
+              display: ["'Space Grotesk'", "sans-serif"],
+              body: ["'Inter'", "sans-serif"],
+              mono: ["'JetBrains Mono'", "monospace"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body { background-color: #0B1120; }
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: #0B1120; }
+      ::-webkit-scrollbar-thumb { background: #243050; border-radius: 8px; }
+      @keyframes pulseGlow { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      .glow-dot { animation: pulseGlow 2.2s ease-in-out infinite; }
+    </style>
+  </head>
+  <body class="font-body text-ink2 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

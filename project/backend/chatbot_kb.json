@@ -1,0 +1,82 @@
+[
+  {
+    "q": "What is machine learning",
+    "a": "Machine learning is a branch of AI where systems learn patterns from data instead of being explicitly programmed, improving their performance on a task through experience."
+  },
+  {
+    "q": "How do I prepare for placements",
+    "a": "Focus on: 1) DSA practice daily, 2) Build 2-3 solid projects, 3) Mock interviews, 4) Revise core CS subjects (OS, DBMS, CN, OOP), 5) Polish your resume and GitHub profile."
+  },
+  {
+    "q": "What is the difference between supervised and unsupervised learning",
+    "a": "Supervised learning trains on labeled data (input-output pairs) to predict outcomes, while unsupervised learning finds hidden patterns or groupings in unlabeled data."
+  },
+  {
+    "q": "How do I improve my resume",
+    "a": "Keep it to one page, quantify achievements, list relevant projects with tech stacks, add a GitHub/portfolio link, tailor keywords to the job description, and proofread carefully."
+  },
+  {
+    "q": "What is REST API",
+    "a": "A REST API is a web service that follows REST architectural principles, using HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources identified by URLs, typically exchanging JSON."
+  },
+  {
+    "q": "Explain time complexity of binary search",
+    "a": "Binary search runs in O(log n) time because it halves the search space with every comparison, requiring the array to be sorted beforehand."
+  },
+  {
+    "q": "What is the difference between SQL and NoSQL",
+    "a": "SQL databases are relational, use structured schemas and tables (e.g. MySQL), while NoSQL databases are non-relational and store flexible/schema-less data such as documents or key-value pairs (e.g. MongoDB)."
+  },
+  {
+    "q": "How do I debug my code",
+    "a": "Reproduce the bug reliably, add print/log statements or use a debugger to inspect variable state, isolate the smallest failing case, check assumptions, and test the fix against edge cases."
+  },
+  {
+    "q": "What skills are needed for cloud computing career",
+    "a": "Core skills include Linux fundamentals, networking basics, a cloud platform (AWS/Azure/GCP), Docker & Kubernetes, Infrastructure as Code (Terraform), and cloud security practices."
+  },
+  {
+    "q": "What is a hash table and its time complexity",
+    "a": "A hash table stores key-value pairs using a hash function to map keys to array indices, giving average O(1) time complexity for insert, delete and lookup."
+  },
+  {
+    "q": "How does gradient descent work",
+    "a": "Gradient descent iteratively updates model parameters in the direction that reduces the loss function, using the negative gradient scaled by a learning rate, until it converges to a minimum."
+  },
+  {
+    "q": "What is overfitting and how to prevent it",
+    "a": "Overfitting happens when a model learns noise in training data rather than the underlying pattern. Prevent it with more data, regularization, cross-validation, simpler models, or early stopping."
+  },
+  {
+    "q": "What is the difference between authentication and authorization",
+    "a": "Authentication verifies who a user is (e.g. login), while authorization determines what an authenticated user is allowed to do (e.g. permissions/roles)."
+  },
+  {
+    "q": "How do I explain a project in an interview",
+    "a": "Use the STAR method: describe the Situation/problem, your Task, the Actions you took (tech stack, your specific contribution), and the measurable Result or impact."
+  },
+  {
+    "q": "What is Big O notation",
+    "a": "Big O notation describes the upper bound of an algorithm's time or space complexity as input size grows, helping compare algorithm efficiency independent of hardware."
+  },
+  {
+    "q": "What is Docker used for",
+    "a": "Docker packages an application with all its dependencies into a lightweight, portable container that runs consistently across different environments."
+  },
+  {
+    "q": "How can AI help with adaptive learning",
+    "a": "Adaptive learning systems track quiz scores, study time, and topic mastery to dynamically adjust content difficulty and recommend the most relevant material for each learner."
+  },
+  {
+    "q": "What is the difference between a stack and a queue",
+    "a": "A stack follows LIFO (Last In, First Out) order, while a queue follows FIFO (First In, First Out) order, affecting how elements are added and removed."
+  },
+  {
+    "q": "How do I choose a career path in tech",
+    "a": "Reflect on what problems excite you (building products, data, security, infrastructure), try small projects in 2-3 areas, and use our Career Guidance module to compare roadmaps, skills, and salary ranges."
+  },
+  {
+    "q": "What is normalization in databases",
+    "a": "Normalization organizes relational database tables to reduce data redundancy and improve integrity, typically by decomposing tables according to normal forms (1NF, 2NF, 3NF)."
+  }
+]
