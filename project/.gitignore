@@ -6,3 +6,4 @@ database.db
 uploads/
 .env
 .DS_Store
+venv/
